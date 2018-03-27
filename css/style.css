@@ -1,0 +1,132 @@
+@charset "UTF-8";
+
+html {
+	font-family: 'Source Sans Pro', sans-serif;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+body {
+}
+nav {
+	background-color: #fff;
+	color: rgb(56, 65, 74);
+	box-shadow: 0px 0px 20px black;
+}
+#my-copyright {
+    background-color: #37444e;
+    color: #fff;
+    font-family: "Source Sans Pro";
+    font-weight: 200;
+    text-align: center;
+    line-height: 3em;
+    bottom: -10em;
+    position: absolute;
+    margin-top: 10em;
+    width: 100%
+}
+.my-container-fluid {
+	padding-right: 2em;
+	padding-left: 2em;
+	background-color: #fff;
+}
+#my-main-nav {
+    height: 3em;
+    margin-bottom: 0;
+    background-color: #fff;
+    color: rgb(56, 65, 74);
+    font-size: 1.5em;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 200;
+}
+#my-main-nav #vd-logo {
+    margin-top: .8em;
+    display: inline-block;
+    position: absolute;
+    right: 1em;
+}
+.my-title-block {
+	text-transform: uppercase;
+    margin-top: .8em;
+    display: inline-block;
+    position: absolute;
+	left: 1em
+}
+.my-body-content {
+    min-height: 100vh;
+	position: relative;
+}
+#my-apps-green {
+    background-color: #009900;
+    color: #fff;
+    font-family: "Source Sans Pro";
+    font-weight: 400;
+    text-align: center;
+    line-height: 3em;
+	margin: .5em;
+}
+#my-apps-red {
+    background-color: #cc0000;
+    color: #fff;
+    font-family: "Source Sans Pro";
+    font-weight: 400;
+    text-align: center;
+    line-height: 3em;
+	margin: .5em;
+}
+#my-apps-orange {
+    background-color: #ff6600;
+    color: #fff;
+    font-family: "Source Sans Pro";
+    font-weight: 400;
+    text-align: center;
+    line-height: 3em;
+	margin: .5em;
+}
+#my-apps-gray {
+    background-color: #6f7e90;
+    color: #fff;
+    font-family: "Source Sans Pro";
+    font-weight: 400;
+    text-align: center;
+    line-height: 3em;
+    margin: .5em;
+}
+#my-apps-box {
+    background-color: #fff;
+    color: #37444e;
+    font-family: "Source Sans Pro";
+    font-weight: 600;
+    font-size: 2em;
+    text-align: center;
+    line-height: 1.5em;
+	margin: .5em;
+	box-shadow: 0 0 2em #000;
+	margin-top: 3em;
+}
+
+.navbar-fixed-top {
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030
+}
+
+a {
+	text-decoration: none;
+	cursor: pointer;
+}
+a:hover,
+a:focus {
+	text-decoration: none;
+}
+
+
+
+.visible-lg-inline-block {
+    display: none!important
+}
+@media(min-width:1200px) {
+    .visible-lg-inline-block {
+        display: inline-block!important
+    }
+}
